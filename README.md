@@ -22,4 +22,6 @@ To create the containers, follow these steps:
 6. On the command line open the git directory of this project. Example -> cd C:\GitHub\customer-data-pipeline
 7. On the command line create the containers with the YARN file in this directory called docker-compose -> podman compose -f docker-compose.yml up
 
-All the server have been configured and are ready to work with microservices. You should know that Kafka configuration have 2 replicas and microservices will work with it.
+All the server have been configured and are ready to work with the microservices. You should know that Kafka configuration have 2 replicas and microservices will work with it.
+
+There is a file called examen-recluit.postman_collection.json in the /scripts directory. These are examples of the uses of the CONTROLLERS (Endpoints) from Postman.
