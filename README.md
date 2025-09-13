@@ -8,7 +8,7 @@ This project contains 2 microservices:
 Before running or compiling microservices you must have your environment ready:
 
 1. Java 17.
-2. Snowflake account For the purposes of demonstrating its use, customer data can be obtained from the `SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL`.
+2. Snowflake account For the purposes of demonstrating its use, customer data should be obtained from the `SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL`.
 3. Create containers for Kafka and MongoDB servers.
 4. Set Snowflake connection string into application properties (see READ file micro1).
 
